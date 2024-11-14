@@ -1,0 +1,10 @@
+git-collaboration,platform,developers,live-code, systematic
+github-project, wide range, developers, collaboration
+
+configure git:
+-git config --global user.name "github_username"
+-git config --global user.email "github_email"
+
+github:
+repositories-folders on github platform used to store code
+-git init
