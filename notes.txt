@@ -2,9 +2,13 @@ git-collaboration,platform,developers,live-code, systematic
 github-project, wide range, developers, collaboration
 
 configure git:
--git config --global user.name "github_username"
+-git config --global user.name "github_username" (github_username is in quotes)
 -git config --global user.email "github_email"
 
 github:
 repositories-folders on github platform used to store code
--git init
+-git init -making the working folder into a folder git can understand (Git repo)
+-git add . -adding all files to the git repo (Remember . means the current working directory)
+-git commit -m "descriptive_message". -m flag means message (in quotes)
+-git remote add origin "adds a tag to the commits" (the tag is not in quotes)
+-git push -u origin main -u means setting upstream so that i dont have to tell it again to push to that directory
